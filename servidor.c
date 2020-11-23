@@ -9,6 +9,7 @@
 #include <pthread.h>
 
 //Declaració variables 
+
 int contador_serveis;
 int numSockets;
 int sockets[100]; //vector de sockets on anirem guardant el sock_conn de cada client

@@ -62,3 +62,11 @@ C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.csproj
 C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
 C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\bin\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
