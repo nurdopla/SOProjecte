@@ -373,7 +373,6 @@ namespace WindowsFormsApplication1
 
         private void BotoEntrar_Click(object sender, EventArgs e)
         {
-
             EntrarPeticio();
 
             // Posar en marxa el thread que atendrà al servidor
