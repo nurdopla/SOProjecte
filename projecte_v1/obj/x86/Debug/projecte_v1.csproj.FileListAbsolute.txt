@@ -1,0 +1,64 @@
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Desktop\ProjecteSO-master\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Núria Domènech Pla\Desktop\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\bin\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\bin\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\versio3.3\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\bin\Debug\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo\versio3_def\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache

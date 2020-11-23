@@ -1,0 +1,14 @@
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Release\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Release\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\bin\Release\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\bin\Release\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Release\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio2.2\projecte_v1\obj\x86\Release\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\bin\Release\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\bin\Release\projecte_v1.pdb
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Release\WindowsFormsApplication1.form_inicial.resources
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Release\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Release\projecte_v1.exe
+C:\SO\Proyecto SO Grupo\versio3\projecte_v1\obj\x86\Release\projecte_v1.pdb
