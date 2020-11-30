@@ -8,7 +8,7 @@
 #include <mysql.h>
 #include <pthread.h>
 
-
+//nova versio)(
 //Declaració variables 
 int contador_serveis;
 int numSockets;
@@ -54,7 +54,7 @@ void AfegirUsuariConectat(LlistaConectats *llista, char nom[20], int socket){
 	return;
 }
 
-void EliminarUsuariConectat(LlistaConectats* llista, char nom[20]){
+void EliminarUsuariConectat(LlistaConectats *llista, char nom[20]){
 	int i=0;
 	int trobat=0;
 	while (i<llista->num && trobat==0)
@@ -89,6 +89,35 @@ int ObtenerSocket (LlistaConectats* llista, char nom[20]){
 	}
 }
 
+void ObtenirConvidador (LlistaConectats *llista, int socket, char convidador[20]){
+	int i = 0;
+	int trobat = 0;
+	while (i<llista->num && trobat ==0)
+	{
+		if (llista->UsuarisConectats[i].Socket==socket)
+		{
+			trobat=1;
+			strcpy(convidador,llista->UsuarisConectats[i].Usuari);
+		}
+		i = i+1;
+	}
+	return;
+}
+
+void ObtenirRespostaInvitacio(LlistaConectats* llista, int socket,char resposta[20]){
+	int i = 0;
+	int trobat = 0;
+	while (i<llista->num && trobat ==0)
+	{
+		if (llista->UsuarisConectats[i].Socket==socket)
+		{
+			trobat=1;
+			strcpy(resposta,llista->UsuarisConectats[i].Usuari);
+		}
+		i = i+1;
+	}
+	return;
+}
 void CadenaLlistaConectats (LlistaConectats* llista, char UsuarisConectats[512]){
 	//funcio que crea un string amb la llista dels usuaris conectats separats per , i el numero d'usuaris davant (ex 3,Jordi,Nuria,Joana)
 	int i = 0;
@@ -436,7 +465,7 @@ void *AtenderCliente(void *socket){
 	
 	// REBRE PETICIONS
 	
-	int sock_conn;
+	int sock_conn; 
 	int *s;
 	s=(int *) socket;
 	sock_conn = *s;
@@ -540,7 +569,7 @@ void *AtenderCliente(void *socket){
 			strcpy (ID_Partida, p);
 			NomGuanyadorsPartida (conn, respuesta, ID_Partida);
 			sprintf(respuesta,"3/%s",respuesta);
-			printf("Resposta codi 3: %s",respuesta);
+			printf("Resposta codi 3: %s\n",respuesta);
 			write (sock_conn,respuesta, strlen(respuesta));
 		}
 		
@@ -559,6 +588,45 @@ void *AtenderCliente(void *socket){
 			sprintf(respuesta,"5/%s",respuesta);
 			printf("Resposta codi 5: %s",respuesta);
 			write (sock_conn,respuesta, strlen(respuesta));				
+		}
+		else if (codigo == 8)
+		{
+			p = strtok( NULL, "/");
+			char convidador[20];
+			ObtenirConvidador(&llista,sock_conn,convidador);
+			sprintf(respuesta,"8/%s",convidador);
+			printf("El mensaje enviado a la persona que se invita es: %s\n",respuesta);
+			while (p != NULL)
+			{
+				strcpy (nomusuari, p);
+				printf("Se le va a enviar el mensaje a: %s\n",nomusuari);
+				int socketconvidat= ObtenerSocket(&llista,nomusuari);
+				if (socketconvidat!=-1)
+				{
+					write(socketconvidat,respuesta,strlen(respuesta));
+				}
+				p = strtok( NULL, "/");
+				
+			}
+		}
+		else if ( codigo == 9)
+		{
+			p = strtok( NULL, "/");
+			char convidador[20];
+			char SIoNO[20];
+			strcpy (nomusuari, p);
+			printf("Se li retorna la resposta a: %s\n",convidador);
+			p = strtok( NULL, "/");
+			strcpy (SIoNO, p);
+			sprintf(respuesta,"9/%s",SIoNO);	
+			int socketconvidador = ObtenerSocket(&llista,nomusuari);
+			printf("la resposta a la invitació és: %s\n",respuesta);
+			if (sock_conn != -1 && socketconvidador != -1)
+			{
+				write(sock_conn,respuesta, strlen(respuesta));
+				write(socketconvidador,respuesta, strlen(respuesta));
+			}	
+			
 		}
 		//ja no hi ha peticio 6, ara es una notifiacio
 		// ja no hi ha peticio 7, ara es una notificacio
@@ -582,7 +650,8 @@ void *AtenderCliente(void *socket){
 			char char_contador_serveis[20];
 			sprintf(char_contador_serveis,"6/%d",contador_serveis);
 			int j;
-			for(j=0;j<i;j++){
+			for(j=0;j<i;j++)
+			{
 				write(sockets[j],char_contador_serveis,strlen(char_contador_serveis));
 			}
 			
@@ -598,7 +667,7 @@ void *AtenderCliente(void *socket){
 
 int main(int argc, char *argv[])
 {
-	int PORT = 50054; //en tenim 3! 
+	int PORT = 50055; //en tenim 3! 
 	contador_serveis = 0;
 	
 	//InicialitzarSocket(int sock_listen, int PORT);

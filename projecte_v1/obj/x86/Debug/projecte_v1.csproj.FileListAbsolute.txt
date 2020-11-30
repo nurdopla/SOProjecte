@@ -70,3 +70,25 @@ C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.cspro
 C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
 C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\SO\Proyecto SO Grupo 2\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Invitació.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Invitació.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte 1\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\bin\Debug\projecte_v1.exe
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\bin\Debug\projecte_v1.pdb
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.csprojResolveAssemblyReference.cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.form_inicial.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Invitació.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.csproj.GenerateResource.Cache
+C:\Users\Núria Domènech Pla\Documents\UNIVERSITAT\3A\SO\project\SOProjecte\projecte_v1\obj\x86\Debug\WindowsFormsApplication1.FormPartida.resources
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.exe
+C:\Users\joana\Documents\uni\3A\Sistemes Operatius\Projecte\SOProjecte\projecte_v1\obj\x86\Debug\projecte_v1.pdb

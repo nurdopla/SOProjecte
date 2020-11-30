@@ -15,8 +15,9 @@ namespace WindowsFormsApplication1
     public partial class form_inicial : Form
     {
         Socket server;
-        int PORT = 50054;
+        int PORT = 50055;
         string IP = "147.83.117.22";
+        string[] Usuaris;
         int HeEntrat = 0; // utilitzare aquesta variable per evitar l'error d'intentar entrar 2 cops.
         
         string NomJugador; //per guardar el nom del jugador de la peticio "Donam la partida del jugador amb els maxims punts"
@@ -26,6 +27,7 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
             CheckForIllegalCrossThreadCalls = false; // Necessari per a poder accedir als elements del form desde un thread diferent
+            LlistaConectats.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
         private void AtendreServidor()
@@ -42,6 +44,7 @@ namespace WindowsFormsApplication1
 
                 switch (codi)
                 {
+                    
                     case 1: // Log in
                         EntrarResposta(missatge);
                         break;
@@ -62,7 +65,14 @@ namespace WindowsFormsApplication1
                         break;
                     case 7: // Notificacio llista de conectats
                         ObtenirConectatsResposta(missatge);
+                        break;
                        // MessageBox.Show(missatge);
+                    case 8: // Notificació on et conviden a jugar una partida
+                        MostrarPropostaPartida(missatge);
+                        break;
+                    case 9: // Resposta a la petició de convidar a una partida
+                        MessageBox.Show("Estem al cas 9, missatge rebut: " + missatge);
+                        PropostaPartidaResposta(missatge);
                         break;
                 }
             }
@@ -85,16 +95,13 @@ namespace WindowsFormsApplication1
                 server.Close();
             }
 
-        }
-
-     
+        }    
 
 
         public void ObtenirConectatsResposta(string missatge)
         {
             try
             {
-                string[] Usuaris;
                 Usuaris = missatge.Split(',');
                 if (Usuaris.Length > 1)
                 {
@@ -104,14 +111,13 @@ namespace WindowsFormsApplication1
                     LlistaConectats.RowHeadersVisible = false;
                     LlistaConectats.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                     int i = 1;
-                    int j = 0;
                     while (i < Usuaris.Length)
                     {
-                        
-                        LlistaConectats.Rows.Add(Usuaris[i]);
-                        //LlistaConectats[0, j].Value = Usuaris[i];
+                        if (Usuaris[i] != NomUsuari.Text)
+                        {
+                            LlistaConectats.Rows.Add(Usuaris[i]);
+                        }
                         i = i + 1;
-                        j = j + 1;
                     }
                 }
                 else
@@ -123,6 +129,7 @@ namespace WindowsFormsApplication1
             {
                 MessageBox.Show("El missatge es incorrecte");
             }
+            LlistaConectats.ClearSelection();
         }
         public void EntrarPeticio()
         {
@@ -186,6 +193,7 @@ namespace WindowsFormsApplication1
                 //Mensaje de desconexión
                 Tancar_connexio();
             }
+            LlistaConectats.ClearSelection();
         }
 
         public void RegistrarPeticio()
@@ -224,6 +232,7 @@ namespace WindowsFormsApplication1
             }
         }
 
+        
         public void RegistrarResposta(string missatge)
         {
             // Funcio que processa la resposta a la peticio de registrarse
@@ -239,7 +248,39 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Ja existeix aquest usuari.");
                 Tancar_connexio();
             }
+            LlistaConectats.ClearSelection();
         }
+
+        public void MostrarPropostaPartida(string missatge)
+        {
+                Invitació invitació = new Invitació();
+                invitació._Missatge = "El jugador amb nom d'usuari " + missatge + " et convida a jugar una partida";
+                invitació.ShowDialog();
+                string resposta = invitació.resposta;
+                string Peticio = "9/" + missatge + "/" + resposta;
+                MessageBox.Show("Enviem peticio: " + Peticio);
+
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(Peticio);
+                server.Send(msg);
+
+        }
+        public void ComençarPartida()
+        {
+            FormPartida partida = new FormPartida();
+            partida.ShowDialog();            
+        }
+
+        public void PropostaPartidaResposta(string missatge)
+        {
+            MessageBox.Show(" ha dit que " + missatge);
+            if (missatge == "SI")
+            {
+                ComençarPartida();
+                this.Hide();               
+            }           
+
+        }
+
 
         public void NumeroServeisResposta(string missatge)
         {
@@ -253,7 +294,8 @@ namespace WindowsFormsApplication1
                 MessageBox.Show("Cal que et connectis primer.");
             }        
             
-        }
+        }             
+
 
         public void NomGuanyadorsPartidaPeticio(string ID_Partida)
         {   // Demana al servidor el nom dels dos jugadors que van guanyar una partida
@@ -326,6 +368,8 @@ namespace WindowsFormsApplication1
         private void Desconnectar_Click(object sender, EventArgs e)
         {
             Tancar_connexio();
+            LlistaConectats.Rows.Clear();
+            PersonesConvidadesLabel.Text = "";
             
         }
 
@@ -398,6 +442,48 @@ namespace WindowsFormsApplication1
             LlistaConectats.ColumnCount = 1;
         }
 
-        
+        private void Botó_Convidar_Click(object sender, EventArgs e)
+        {
+            string[] Seleccionats = new string[100];
+            int marcadas = LlistaConectats.SelectedRows.Count;
+            int i = 1;
+            int row = 0;
+            int j = 0 ;
+            while (i < Usuaris.Length-1) 
+            {
+                if (LlistaConectats.Rows[row].Cells[0].Style.BackColor == Color.Blue) 
+                {
+                    Seleccionats[j] = Usuaris[i];
+                    j=j+1;
+                    LlistaConectats.Rows[row].Cells[0].Style.BackColor = Color.White;
+                    row = row + 1;
+                }
+                i = i + 1;
+            }
+            LlistaConectats.ClearSelection();
+            j = 0;
+            if (Seleccionats[0] != null)
+            {
+                string mensaje="8";
+                while (Seleccionats[j]!=null)
+                {
+                    mensaje = mensaje + "/" + Seleccionats[j];
+                    MessageBox.Show(mensaje);
+                    j = j + 1;
+                }
+                // Envia al servidor la ID de la partida
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+            }
+            else
+            {
+                MessageBox.Show("No hi ha cap persona seleccionada per convidar");
+            }
+        }
+
+        private void LlistaConectats_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            LlistaConectats.Rows[e.RowIndex].Cells[e.ColumnIndex].Style.BackColor = Color.Blue;
+        }           
     }
 }
