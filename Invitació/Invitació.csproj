@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C9865322-A4CA-4076-99E2-3706DD4D0BF4}</ProjectGuid>
+    <ProjectGuid>{FBC01F0D-7E72-4E9B-900D-1542D41C03A4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WindowsFormsApplication1</RootNamespace>
-    <AssemblyName>projecte_v1</AssemblyName>
+    <RootNamespace>Invitació</RootNamespace>
+    <AssemblyName>Invitació</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
@@ -46,45 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dau.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formar_equips.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Formar_equips.Designer.cs">
-      <DependentUpon>Formar_equips.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FormPartida.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormPartida.Designer.cs">
-      <DependentUpon>FormPartida.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Invitació.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Invitació.Designer.cs">
-      <DependentUpon>Invitació.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Formar_equips.resx">
-      <DependentUpon>Formar_equips.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormPartida.resx">
-      <DependentUpon>FormPartida.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Invitació.resx">
-      <DependentUpon>Invitació.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -93,7 +62,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -104,27 +72,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\blau.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\groc.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\lila.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\taronja.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\verd.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\vermell.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fons_joc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

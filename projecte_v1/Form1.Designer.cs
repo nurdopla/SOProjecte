@@ -44,12 +44,18 @@
             this.count_lbl = new System.Windows.Forms.Label();
             this.LlistaConectats = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
+            this.Botó_Convidar = new System.Windows.Forms.Button();
+            this.TitolPersonesConvidadesLabel = new System.Windows.Forms.Label();
+            this.PersonesConvidadesLabel = new System.Windows.Forms.Label();
+            this.ID_text_label = new System.Windows.Forms.Label();
+            this.ID_label = new System.Windows.Forms.Label();
+            this.Començar_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LlistaConectats)).BeginInit();
             this.SuspendLayout();
             // 
             // BotoEntrar
             // 
-            this.BotoEntrar.Location = new System.Drawing.Point(72, 114);
+            this.BotoEntrar.Location = new System.Drawing.Point(72, 113);
             this.BotoEntrar.Name = "BotoEntrar";
             this.BotoEntrar.Size = new System.Drawing.Size(119, 42);
             this.BotoEntrar.TabIndex = 0;
@@ -197,6 +203,7 @@
             this.LlistaConectats.RowTemplate.Height = 24;
             this.LlistaConectats.Size = new System.Drawing.Size(152, 175);
             this.LlistaConectats.TabIndex = 19;
+            this.LlistaConectats.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LlistaConectats_CellClick);
             // 
             // label3
             // 
@@ -207,11 +214,72 @@
             this.label3.TabIndex = 20;
             this.label3.Text = "Llista Usuaris Conectats";
             // 
+            // Botó_Convidar
+            // 
+            this.Botó_Convidar.Location = new System.Drawing.Point(443, 81);
+            this.Botó_Convidar.Name = "Botó_Convidar";
+            this.Botó_Convidar.Size = new System.Drawing.Size(111, 41);
+            this.Botó_Convidar.TabIndex = 21;
+            this.Botó_Convidar.Text = "Convidar";
+            this.Botó_Convidar.UseVisualStyleBackColor = true;
+            this.Botó_Convidar.Click += new System.EventHandler(this.Botó_Convidar_Click);
+            // 
+            // TitolPersonesConvidadesLabel
+            // 
+            this.TitolPersonesConvidadesLabel.AutoSize = true;
+            this.TitolPersonesConvidadesLabel.Location = new System.Drawing.Point(424, 139);
+            this.TitolPersonesConvidadesLabel.Name = "TitolPersonesConvidadesLabel";
+            this.TitolPersonesConvidadesLabel.Size = new System.Drawing.Size(148, 17);
+            this.TitolPersonesConvidadesLabel.TabIndex = 22;
+            this.TitolPersonesConvidadesLabel.Text = "Persones convidades:";
+            // 
+            // PersonesConvidadesLabel
+            // 
+            this.PersonesConvidadesLabel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.PersonesConvidadesLabel.Location = new System.Drawing.Point(414, 155);
+            this.PersonesConvidadesLabel.Name = "PersonesConvidadesLabel";
+            this.PersonesConvidadesLabel.Size = new System.Drawing.Size(167, 26);
+            this.PersonesConvidadesLabel.TabIndex = 23;
+            // 
+            // ID_text_label
+            // 
+            this.ID_text_label.AutoSize = true;
+            this.ID_text_label.Location = new System.Drawing.Point(500, 194);
+            this.ID_text_label.Name = "ID_text_label";
+            this.ID_text_label.Size = new System.Drawing.Size(25, 17);
+            this.ID_text_label.TabIndex = 24;
+            this.ID_text_label.Text = "ID:";
+            // 
+            // ID_label
+            // 
+            this.ID_label.AutoSize = true;
+            this.ID_label.Location = new System.Drawing.Point(532, 194);
+            this.ID_label.Name = "ID_label";
+            this.ID_label.Size = new System.Drawing.Size(0, 17);
+            this.ID_label.TabIndex = 25;
+            // 
+            // Començar_button
+            // 
+            this.Començar_button.Location = new System.Drawing.Point(395, 186);
+            this.Començar_button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Començar_button.Name = "Començar_button";
+            this.Començar_button.Size = new System.Drawing.Size(100, 33);
+            this.Començar_button.TabIndex = 26;
+            this.Començar_button.Text = "Començar";
+            this.Començar_button.UseVisualStyleBackColor = true;
+            this.Començar_button.Click += new System.EventHandler(this.Començar_button_Click);
+            // 
             // form_inicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 497);
+            this.ClientSize = new System.Drawing.Size(796, 470);
+            this.Controls.Add(this.Començar_button);
+            this.Controls.Add(this.ID_label);
+            this.Controls.Add(this.ID_text_label);
+            this.Controls.Add(this.PersonesConvidadesLabel);
+            this.Controls.Add(this.TitolPersonesConvidadesLabel);
+            this.Controls.Add(this.Botó_Convidar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.LlistaConectats);
             this.Controls.Add(this.count_lbl);
@@ -255,6 +323,12 @@
         private System.Windows.Forms.Label count_lbl;
         private System.Windows.Forms.DataGridView LlistaConectats;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button Botó_Convidar;
+        private System.Windows.Forms.Label TitolPersonesConvidadesLabel;
+        private System.Windows.Forms.Label PersonesConvidadesLabel;
+        private System.Windows.Forms.Label ID_text_label;
+        private System.Windows.Forms.Label ID_label;
+        private System.Windows.Forms.Button Començar_button;
     }
 }
 
