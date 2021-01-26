@@ -13,3 +13,4 @@ Versió 5 generada per Jordi
 
 Versió 5 verificada per Joana
 >>>>>>> dev-v5
+Versió Final generada per Jordi
